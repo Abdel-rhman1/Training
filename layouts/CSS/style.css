@@ -1,0 +1,253 @@
+.navbar{
+  background-image: url("../../Images/Menu.png");
+  background-color:none !important;
+  background-repeat: no-repeat;
+  height: 80px !important;
+}
+.navbar-brand{
+  margin-top: 10px;
+}
+.navbar-brand p{
+  display: inline;
+}
+.Logo{
+  display: inline;
+  float: left;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  height:90px;
+}
+.Naming{
+  display: inline;
+  float: right;
+  margin-left: 10px;
+  line-height: 1.14
+}
+.navbar-toggler{
+  margin-top: -20px !important;
+}
+#navbarSupportedContent{
+  margin-right: 80px !important;
+}
+@media screen and (min-width : 769px) and (max-width : 992px) {
+  .navbar-brand{
+    margin-top: -18px !important;
+  }
+  #navbarSupportedContent{
+    margin-right:1px !important;
+  }
+  #navbarSupportedContent ul li a{
+    padding-right: 40px !important;
+  }
+}
+@media screen and (min-width : 577px) and (max-width : 768px) {
+  .navbar-brand{
+    margin-top: -18px !important;
+  }
+  #navbarSupportedContent{
+    margin-right: 1px !important;
+  }
+  #navbarSupportedContent ul li a{
+    padding-right: 40px !important;
+  }
+}
+@media screen and (max-width : 576px) {
+  .navbar-brand{
+    margin-top: -18px !important;
+  }
+  #navbarSupportedContent{
+    /* padding-right: 40px !important; */
+    margin-right: 1px !important;
+  }
+  #navbarSupportedContent ul li a{
+    padding-right: 40px !important;
+  }
+}
+.activeList{
+  border-radius: 45%;
+  height: 50px;
+  width:100px;
+  padding-top: 2px;
+  vertical-align: middle;
+  background-color: hsl(23deg 97% 62%);
+
+}
+.navbar-nav li a{
+  color:#fff !important;
+  z-index: 21;
+  padding-left:40px;
+  padding-right: 40px;
+  padding-top:5px;
+  padding-bottom: 5px;
+  margin-top:4px;
+}
+@media screen and (min-width : 0px) and (max-width : 992px) {
+  .navbar-nav li a{
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+/* Starting A Services Section  */
+.ServiceS-section{
+  background-image: url("../../Images/image.png");
+  background-color:none !important;
+  background-repeat: no-repeat;
+  max-height: 1400px !important;
+  min-height: 730px !important;
+  height: auto;
+  background-size: cover;
+  margin-top: -80px;
+}
+.InnerBox{
+    background-color:rgba(1,1,1,.4);
+    height: 250px !important;
+    background-size: cover;
+}
+@media screen and (min-width : 769px) and (max-width : 992px) {
+  .InnerBox{
+      height: 380px !important;
+  }
+
+}
+@media screen and (min-width : 577px) and (max-width : 768px) {
+    .InnerBox{
+        height: 380px !important;
+    }
+}
+@media screen and (max-width : 576px) {
+  .InnerBox{
+      height: 380px !important;
+  }
+}
+
+
+.UserImages{
+  position: relative;
+  top: -90px;
+}
+.Text{
+  color:#fff !important;
+  /* font-size: 18px; */
+}
+/* End A Services Section */
+.Body{
+  margin-top: 1;
+}
+.Body .heading1{
+  font-size: 28px!important;
+  color:#00445c;
+}
+.headName{
+  color:#f2723c;
+}
+.Instructor-Image{
+  background-repeat: no-repeat;
+}
+/* Start the Third Section */
+.Our-services{
+  min-height: 500px!important;
+  max-height: 1400px!important;
+  height: auto;
+}
+.Our-services .InnerClass{
+  background-color:#eee;
+  height: 180px !important;
+  background-size: cover;
+}
+.Our-services .Our-services-Head .Service{
+    background-color:#eee;
+    margin-top: -40px;
+    height:60px;
+    padding:5px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.Our-services .Our-services-Head .Service p{
+    color:hsl(195deg 77% 22%);
+}
+.Our-services-Body .ServiceHeading{
+  color:hsl(19deg 87% 59%);
+  margin-left: 25px;
+}
+.Our-services-Body p{
+  font-size: 15px;
+}
+.Our-services-Body ul li{
+  font-size: 13px;
+  line-height: 3.1;
+  color:hsl(196deg 74% 23%);
+  cursor: pointer;
+}
+.Our-services-Body ul li i{
+  font-size: 10px;
+}
+.Active{
+    background-color: #fff !important;
+}
+.Active p{
+  color:hsl(22deg 89% 55%) !important;
+}
+.Our-services .Our-services-Body{
+  margin-top:30px;
+  height: 200px;
+}
+/* End The Thrid Section */
+/* Start Footer Section */
+.footer{
+  margin-top: 100px;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width : 769px) and (max-width : 992px) {
+  .footer{
+      margin-top: 250px;
+  }
+  ul li i  , .ServiceHeading {
+      text-align: center;
+  }
+  body{
+    background-color: red:
+  }
+
+}
+@media screen and (min-width : 576px) and (max-width : 768px) {
+  .footer{
+      margin-top: 355px;
+  }
+  .footer .BOX .container {
+    margin-right: 5px!important;
+    margin-left:5px!important;
+  }
+  .container, .container-sm {
+    max-width: 663px!important;
+  }
+}
+
+
+
+.footer .BOX{
+  height: 100px;
+  width: 100%;
+  background-color: hsl(196deg 100% 18%);
+
+}
+.footer .BOX .Link{
+  text-decoration: none;
+  color:#fff;
+}
+@media screen and (max-width : 576px) {
+  .footer{
+      margin-top: 500px;
+  }
+  .footerLogo{
+    text-align: center;
+    clear: both;
+  }
+  .footer .BOX{
+      height: 190px!important;
+  }
+}
+.hiddenclass{
+    display: none;
+}
+/* End Footer Section */
