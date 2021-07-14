@@ -200,7 +200,7 @@
 
 @media screen and (min-width : 769px) and (max-width : 992px) {
   .footer{
-      margin-top: 250px;
+      margin-top: 215px;
   }
   ul li i  , .ServiceHeading {
       text-align: center;
@@ -212,7 +212,7 @@
 }
 @media screen and (min-width : 576px) and (max-width : 768px) {
   .footer{
-      margin-top: 355px;
+      margin-top: 260px;
   }
   .footer .BOX .container {
     margin-right: 5px!important;
@@ -237,7 +237,7 @@
 }
 @media screen and (max-width : 576px) {
   .footer{
-      margin-top: 500px;
+      margin-top: 430px;
   }
   .footerLogo{
     text-align: center;
