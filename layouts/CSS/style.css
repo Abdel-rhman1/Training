@@ -288,10 +288,21 @@ body{
 }
 .service{
   background-color: #fff;
-  height: 360px;
+  height: 380px;
   border-radius: 10px;
   padding:10px;
   margin-bottom: 100px;
+}
+@media screen and (min-width : 769px) and (max-width : 992px) {
+  .service{
+    height: 450px;
+  }
+
+}
+@media screen and (min-width : 576px) and (max-width : 768px) {
+  .service{
+    height: 540px;
+  }
 }
 .service .AboveServImg{
   margin-top: -50px
@@ -301,8 +312,11 @@ body{
   margin-bottom: 30px;
   color:hsl(196deg 100% 18%);
 }
+.service p{
+    color:hsl(196deg 74% 23%);
+}
 .service ul li{
-  font-size: 13px;
+  font-size: 15px;
   line-height: 2.1;
   color:hsl(196deg 74% 23%);
   cursor: pointer;
@@ -365,6 +379,14 @@ margin-top: 34px;
 }
 /* end Services Block */
 /* start map section */
+.imagemap {
+  background-color: hsl(18deg 87% 59%);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  /* text-align: center; */
+
+}
 #map {
   margin-top:100px;
    height: 600px;
