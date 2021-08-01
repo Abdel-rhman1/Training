@@ -211,7 +211,7 @@ body{
       text-align: center;
   }
   body{
-    background-color: red:
+    background-color: red;
   }
 
 }
@@ -263,7 +263,7 @@ body{
 
 }
 .our-company{
-      background-image: url(../../images/backend.png);
+      background-image: url("../../Images/backend.png");
       background-color: none !important;
       background-repeat: no-repeat;
       min-height: 385px !important;
