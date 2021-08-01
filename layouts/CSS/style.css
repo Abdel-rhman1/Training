@@ -103,7 +103,7 @@ body{
 }
 .InnerBox{
     background-color:rgba(1,1,1,.4);
-    height: 250px !important;
+    height: 270px !important;
     background-size: cover;
 }
 @media screen and (min-width : 769px) and (max-width : 992px) {
@@ -210,10 +210,6 @@ body{
   ul li i  , .ServiceHeading {
       text-align: center;
   }
-  body{
-    background-color: red;
-  }
-
 }
 @media screen and (min-width : 576px) and (max-width : 768px) {
   .footer{
@@ -266,11 +262,8 @@ body{
       background-image: url("../../Images/backend.png");
       background-color: none !important;
       background-repeat: no-repeat;
-      min-height: 385px !important;
-      max-height: 460px !important;
-      height: auto;
+      height: 205px;
       background-size: cover;
-      margin-top: -237px;
 }
 .InnerBox2{
     height: 150px;
@@ -350,6 +343,7 @@ body{
 .ServiceBlock{
   margin-top: 30px;
 }
+
 .ServiceBlock .imageBlock{
       height: 100px;
       width: 50px;
